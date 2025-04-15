@@ -1,4 +1,7 @@
 # Router script
+## Basic Conf 
+
+```shell
 enable
 configure terminal 
 no ip domain-lookup
@@ -10,6 +13,8 @@ login
 logging synchronous
 exec-timeout 60
 exit
+```
+
 
 line vty 0 15
 Password cisco12345!
